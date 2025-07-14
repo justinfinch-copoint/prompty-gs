@@ -1,0 +1,4 @@
+prompty>=0.1.50
+python-dotenv
+openai
+
