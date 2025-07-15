@@ -5,6 +5,11 @@
 
 echo "🚀 Running post-create setup..."
 
+# Upgrade pip and install Python requirements
+echo "🐍 Installing Python requirements..."
+pip install --upgrade pip
+pip install -r .devcontainer/requirements.txt
+
 # Install Claude Code globally
 echo "📦 Installing Claude Code..."
 npm install -g @anthropic-ai/claude-code

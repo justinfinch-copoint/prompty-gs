@@ -221,3 +221,10 @@ yarn-error.log*
 # Prompty specific
 *.prompty.cache
 .prompty/
+
+# macOS specific file that stores custom attributes of a file or folder
+# It is created by Finder and other macOS applications, and can be ignored in version control
+# It is not necessary for the functioning of the project and can be safely ignored
+# It is recommended to add this line to the global gitignore file
+# to avoid committing it in any repository
+.DS_Store
