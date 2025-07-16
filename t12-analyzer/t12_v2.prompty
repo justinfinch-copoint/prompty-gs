@@ -1,3 +1,89 @@
+---
+name: T12 CSV Financial Parser
+description: |
+  Parses trailing-12-month (T12) CSV financial documents.
+  Extracts detail lines (no totals), preserves original category labels,
+  and maps each line to one of: gross_income, operating_expenses, capital_expenditures, debt_service.
+version: "1.0.0"
+authors:
+  - Your Name
+tags:
+  - financial
+  - T12
+  - CSV
+model:
+  api: chat
+  configuration:
+    type: openai
+    name: gpt-4.1-mini
+  parameters:
+    max_tokens: 8000
+    response_format:
+      type: json_object
+inputs:
+  csv_text:
+    type: string
+    description: |
+      The full CSV text of a T12 statement.
+outputs:
+  type: array
+  description: List of mapped line-item objects
+---
+system:
+You are a financial CSV parser, your tasks are:
+
+1. Extract **all detail rows** (exclude aggregate or total rows with keywords like "Total", "Sum", "Rollup", etc.). Ignore all csv rows that don't have any financial data (e.g., empty rows or headers).
+   - Each row should be treated as a separate item.
+   - Ignore any rows that are not relevant to financial data (e.g., comments, headers).
+   - Ensure that the first two columns are always present and contain valid data.
+2. Preserve:
+   - `originalCategory` (source's label)
+   - `originalSubcategory` (e.g. account code + description)
+3. Standardize each item into one of four `standardGroup` values:
+   - `gross_income`
+   - `operating_expenses`
+   - `capital_expenditures`
+   - `debt_service`
+   Use content cues:
+   - Rent, income, subsidy → gross_income
+   - Utilities, maintenance, fees, taxes → operating_expenses
+   - Repairs, replacement, renovations → capital_expenditures
+   - Mortgage, interest, loan → debt_service
+4. Extract numeric monthly values for `jan` through `dec`. If a month column is absent or its value cannot be parsed, default to `0.00`.
+5. Add two more fields:
+   - `annualTotal`: sum of monthly values
+   - `confidence`: integer 0-100 estimating correctness of the mapping (≥90 if keywords match strongly; 70-89 if good guess; <70 if unclear)
+6. No other fields; omit notes or metadata.
+7. Return a JSON array of item objects in the following format:
+
+```json
+[
+  {
+    "originalCategory": "<string>",
+    "originalSubcategory": "<string>",
+    "standardGroup": "<...>",
+    "monthlyValues": {
+      "jan": 0.00,
+      "feb": 0.00,
+      "mar": 0.00,
+      "apr": 0.00,
+      "may": 0.00,
+      "jun": 0.00,
+      "jul": 0.00,
+      "aug": 0.00,
+      "sep": 0.00,
+      "oct": 0.00,
+      "nov": 0.00,
+      "dec": 0.00
+    },
+    "annualTotal": 0.00,
+    "confidence": 0
+  }
+]
+```
+
+user:
+Here is the CSV content:
 Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14
 Code,Category,Line Item,2024-05,2024-06,2024-07,2024-08,2024-09,2024-10,2024-11,2024-12,2025-01,2025-02,2025-03,2025-04
 1,Scheduled Market Rent,4110 Gross Potential Rent,172120.0,172120.0,172120.0,172120.0,172431.0,172120.0,179160.0,179160.0,179160.0,180544.0,180544.0,184680.0
@@ -140,3 +226,6 @@ Code,Category,Line Item,2024-05,2024-06,2024-07,2024-08,2024-09,2024-10,2024-11,
 36,Other Non-Controllable Expenses2,"7658 Pool, playground & Rec",0.0,1015.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1365.0,0.0
 36,Other Non-Controllable Expenses2,7680 Other Exterior Replace,12283.0,10687.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1243.0,0.0
 36,Other Non-Controllable Expenses2,7325 Principal,9447.0,8542.0,9521.0,8657.0,9633.0,9633.0,8735.0,8735.0,8815.0,8852.0,8735.0,8941.0
+
+
+
