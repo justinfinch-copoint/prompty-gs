@@ -31,7 +31,8 @@
 				"ms-toolsai.vscode-jupyter-slideshow",
 				"ms-toolsai.prompty",
 				"charliermarsh.ruff",
-				"ms-vscode.vscode-json"
+				"ms-vscode.vscode-json",
+				"mechatroner.rainbow-csv"
 			],
 			"settings": {
 				"python.defaultInterpreterPath": "/usr/local/bin/python",
