@@ -62,20 +62,13 @@ You are a financial CSV parser, your tasks are:
     "originalCategory": "<string>",
     "originalSubcategory": "<string>",
     "standardGroup": "<...>",
-    "monthlyValues": {
-      "jan": 0.00,
-      "feb": 0.00,
-      "mar": 0.00,
-      "apr": 0.00,
-      "may": 0.00,
-      "jun": 0.00,
-      "jul": 0.00,
-      "aug": 0.00,
-      "sep": 0.00,
-      "oct": 0.00,
-      "nov": 0.00,
-      "dec": 0.00
-    },
+    "monthlyValues": [
+       {
+          "month": "<string>",
+          "year": "<string>",
+          "value": 0.00
+       }
+    ],
     "annualTotal": 0.00,
     "confidence": 0
   }
