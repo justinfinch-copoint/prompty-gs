@@ -1,0 +1,225 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14
+,,,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly,Monthly
+Code,Category,Line Item,2024-05-01 00:00:00,2024-06-01 00:00:00,2024-07-01 00:00:00,2024-08-01 00:00:00,2024-09-01 00:00:00,2024-10-01 00:00:00,2024-11-01 00:00:00,2024-12-01 00:00:00,2025-01-01 00:00:00,2025-02-01 00:00:00,2025-03-01 00:00:00,2025-04-01 00:00:00
+,,,,,,,,,,,,,,
+,,INCOME,,,,,,,,,,,,
+,,Net Rental Income,,,,,,,,,,,,
+,,Rental Income,,,,,,,,,,,,
+,,Gross Possible Rent,,,,,,,,,,,,
+1,Scheduled Market Rent,4110 Gross Potential Rent,172120,172120,172120,172120,172431,172120,179160,179160,179160,180544,180544,184680
+1,Scheduled Market Rent,4115 Subsidy Rent,0,0,0,0,0,0,0,0,0,0,0,0
+3,Less: Loss to Lease,4120 (Loss) / Gain to Old,-4913,-4418,-4031,-4268,-3204,-2729,-9325,-9071,-8265,-9354,-8815,-12898
+,,Total Gross Possible Rent,167207,167702,168089,167852,169227,169391,169835,170089,170895,171190,171729,171782
+,,Deductions,,,,,,,,,,,,
+6,Bad Debt,4210 Bad Debt / Write-Of,0,-270,-191,-1091,-383,-406,-103,-215,-1189,0,-657,-492
+4,Less: Physical Vacancy,4220 Vacancy Loss,-5204,-10429,-10352,-9570,-9861,-4106,-4252,-5137,-3356,265,-5657,-1812
+5,Less: Concessions,4250 Rent Concessions,-1629,-100,-5488,-430,-1883,-3824,-1076,0,0,0,-100,0
+5,Less: Concessions,4255 Rent Concessions - R,0,0,-420,0,0,0,0,0,0,0,0,0
+5,Less: Concessions,4280 Resident Or Leasing,0,-100,0,0,0,0,0,0,0,0,0,0
+39,Employee Unit,4283 Employee / Admin C,-618,-618,-618,-618,-561,-475,-475,-475,-475,-475,-475,0
+6,Bad Debt,4295 Miscellaneous Credi,0,0,0,0,0,0,0,-537,0,0,0,0
+,,Total Deductions,-7451,-11517,-17069,-11709,-12688,-8811,-5906,-6364,-5020,-210,-6889,-2304
+,,Total Rental Income,159756,156185,151020,156143,156539,160580,163929,163725,165875,170980,164840,169478
+,,Total Net Rental Income,159756,156185,151020,156143,156539,160580,163929,163725,165875,170980,164840,169478
+,,Other Income,,,,,,,,,,,,
+13,Fee Income,4302 High Risk Fee,2250,1000,1250,500,1750,2000,1125,875,750,1500,250,2600
+6,Bad Debt,4305 Bad Debt Recovery,176,0,-834,0,254,-9,0,103,0,111,932,150
+10,Utility Reimbursements,4315 Electric Reimbursable,0,0,0,248,0,0,50,0,0,0,0,0
+13,Fee Income,4405 Administration Fees,1900,1100,1600,1700,1400,1200,900,900,800,600,2000,1600
+13,Fee Income,4415 Application Fees,1650,975,1650,1800,1575,1500,675,1050,600,525,2475,1425
+13,Fee Income,4420 Cleaning Charges / Fee,523,1165,430,1060,728,-117,375,969,-600,20,904,175
+11,Other Income,4428 Resident Damage Charg,858,3977,1955,2133,1252,2114,275,1383,-615,488,1540,1012
+19,Other Income8,4434 Interest Income,1090,1132,1100,1140,1141,1080,0,2046,0,991,961,861
+13,Fee Income,4438 Key & Lock Charges,0,0,0,0,0,50,25,0,0,0,0,0
+13,Fee Income,4440 Late Fees,375,1090,855,550,510,280,1105,941,-15,410,725,1115
+11,Other Income,4445 Laundry Room Income,728,678,617,628,720,794,696,825,853,914,-71,939
+13,Fee Income,4448 Lease Termination Fees,1545,2516,3901,1783,796,-483,3512,5304,-5838,0,3969,1678
+13,Fee Income,4450 Month to Month Fees,507,497,568,503,183,36,-32,13,100,182,144,137
+13,Fee Income,4455 Non-refundable Pet Fee,1750,1750,800,2500,700,1900,1150,1550,300,1300,400,1366
+13,Fee Income,4460 NSF Check Fee Recover,0,50,100,100,50,150,100,0,100,0,0,150
+11,Other Income,4466 Insurance Non Complia,0,0,0,0,0,150,125,175,100,100,175,175
+11,Other Income,4468 Deposit Insurance Incom,897,1209,1523,1731,2027,2331,2541,2667,2804,2994,2984,3086
+24,Repairs & Maintenance,4470 Amenity Maintenance I,0,0,0,0,0,0,0,0,-4500,0,0,0
+11,Other Income,4475 Security Deposit Forfeit,0,0,0,0,0,0,0,0,0,0,350,0
+36,Other Non-Controllable Expenses2,4480 Telephone Pay / System,0,0,0,0,0,0,0,0,0,914,0,0
+11,Other Income,4488 Electric/Internet Reven,0,0,0,0,0,69528,0,3468,0,0,33586,0
+19,Other Income8,4498 Miscellaneous Income,0,0,3100,0,0,1495,0,4278,0,0,0,0
+17,Other Income6,4505 Washer Dryer Rental,2180,2163,2101,2109,1974,2092,2185,2127,2185,2175,2104,2188
+13,Fee Income,4560 Credit Builder Income,126,168,234,270,305,347,347,365,383,413,413,431
+,,Total Other Income,16555,19470,20950,18755,15365,86438,15154,29039,-2593,13637,53841,19088
+,,RUBS,,,,,,,,,,,,
+11,Other Income,4905 Government Fee Reimb,2002,2267,1917,1947,2168,1859,2023,2058,2093,2037,2267,2216
+16,Other Income5,4925 Pest Control Fees,1457,1767,1252,1203,1208,1033,1360,2306,1155,1124,1247,1216
+16,Other Income5,4930 Trash Service Fee,2009,2274,1929,1943,2168,1859,2023,2058,2093,2037,2267,2216
+10,Utility Reimbursements,4940 Water & Sewer Revenu,3705,5489,4249,4879,5065,5224,3650,4430,4819,4886,5931,4719
+23,Water & Sewer,4945 Storm Water Drainage I,638,739,615,651,726,619,668,684,696,679,758,737
+11,Other Income,4987 Utility Administration F,1814,1891,1774,1772,1863,1760,1836,1832,1851,1854,1916,1911
+,,Total RUBS,11625,14427,11736,12395,13198,12354,11560,13368,12707,12617,14386,13015
+,,TOTAL INCOME,187936,190082,183706,187293,185102,259372,190643,206132,175989,197234,233067,201581
+,,EXPENSE,,,,,,,,,,,,
+,,Controllable Operating Expen,,,,,,,,,,,,
+,,Administration Costs,,,,,,,,,,,,
+27,Administrative,6105 Evictions & Court Fee,0,0,0,342,0,0,0,0,0,0,0,0
+27,Administrative,6111 Bank Charges & Fees,0,0,0,0,5,0,0,0,0,0,0,0
+13,Fee Income,6112 NSF Return Payment F,18,5,0,5,11,15,0,22,16,16,11,0
+26,Payroll,6113 Resman Payments 2.0,91,83,88,81,81,84,13,0,88,150,64,0
+6,Bad Debt,6114 Bad Debt Recovery Fe,85,115,10,7,70,391,51,10,6,-25,159,15
+27,Administrative,6115 Credit Verification - Q,326,398,380,311,482,482,448,351,234,467,97,0
+27,Administrative,6116 Credit Builder Expens,90,122,186,264,289,309,380,374,399,855,437,0
+11,Other Income,6117 Deposit Insurance Exp,576,803,1074,1280,1569,1738,2015,2206,2294,2422,2494,2594
+27,Administrative,6136 Licenses & Fees - Res,373,0,765,392,518,392,392,392,392,0,785,368
+27,Administrative,6137 Licenses and fees - ot,281,324,280,206,324,0,548,224,399,50,224,224
+27,Administrative,6145 Employee Meals & Ent,21,0,0,0,0,0,0,34,0,40,18,0
+27,Administrative,6146 Employee - Drug Testi,68,0,0,0,0,0,0,0,0,0,0,0
+27,Administrative,6147 Employee Recruiting A,0,0,68,0,0,0,0,0,0,0,0,0
+27,Administrative,6150 Office IT & Computer,0,0,0,0,0,0,0,648,0,0,0,0
+26,Payroll,6156 Office - Employee App,0,0,0,77,0,0,38,2662,0,0,0,0
+27,Administrative,6157 Office Supplies & Exp,105,70,81,94,108,125,117,68,36,155,115,170
+27,Administrative,"6160 Office - Water, Coffee",48,5,7,5,2,0,46,58,9,44,73,68
+27,Administrative,6162 Office Travel / Mileag,0,0,0,0,0,0,0,170,0,0,0,0
+27,Administrative,6166 Postage,0,6,0,6,16,0,3,-20,9,0,0,0
+27,Administrative,"6167 Dues, Books & Subscri",400,0,0,0,0,0,0,0,0,0,0,0
+27,Administrative,6169 Printing / Copy,0,0,0,0,0,0,0,0,0,0,0,0
+27,Administrative,6175 TAA - License & Click,237,77,396,237,77,237,237,237,237,77,396,261
+27,Administrative,6181 Local Apartment Asso,0,0,0,0,0,0,0,0,0,925,0,0
+27,Administrative,6185 Answering Service,109,118,118,118,118,15,0,0,0,0,0,0
+27,Administrative,6200 Legal and Professiona,0,0,0,0,0,0,0,0,0,61,0,0
+33,Other Controllable Expenses1,6210 Tax Prep,0,0,4000,0,0,0,0,0,0,0,0,0
+33,Other Controllable Expenses1,6212 Accounting - Ascent,1375,1500,1375,1375,1375,45,0,0,0,0,0,0
+27,Administrative,6215 Property Tax Consulta,0,0,5000,0,0,0,0,0,0,0,100,0
+,,Total Administration Costs,4203,3626,13828,4800,5045,3833,4288,7436,4119,5237,4973,3700
+,,Marketing & Leasing,,,,,,,,,,,,
+31,Marketing & Promotion,6302 Apts.com,1038,1070,1070,1070,1070,1070,1070,32,1070,1070,1070,1070
+31,Marketing & Promotion,6312 EliseAI,0,0,0,0,842,842,842,842,842,842,842,842
+27,Administrative,6315 Domain / Website Exp,255,255,255,255,205,205,205,205,205,205,205,205
+31,Marketing & Promotion,6350 Resident Relations,104,0,0,0,82,0,31,0,140,733,11,0
+31,Marketing & Promotion,6370 Other Advertising & P,49,122,70,0,122,23,89,88,236,0,0,0
+,,Total Marketing & Leasing,1446,1447,1395,1325,2321,2140,2237,1167,2493,2850,2128,2117
+,,Salaries & Payroll Related,,,,,,,,,,,,
+26,Payroll,6405 Salary - Community D,5000,7500,5000,5000,5000,5000,7500,5000,5000,5000,5096,5192
+26,Payroll,6410 Salary - Asst. Commun,3324,4992,3353,3322,3329,3328,4984,3354,3227,3308,3378,3429
+26,Payroll,6420 Salary - Maint. Direct,3790,6437,4427,4326,4316,4300,6444,4289,4364,4307,4382,4503
+26,Payroll,6425 Salary - Asst. Maint. D,4430,5740,3815,3775,3776,3784,5648,3843,3843,3790,3895,3999
+26,Payroll,6435 Salary - Porter/Make,0,0,0,0,0,0,0,0,1701,1905,2080,2084
+26,Payroll,6446 Temp Labor,3030,1874,3653,2884,4361,2631,0,-1542,0,0,0,0
+26,Payroll,6448 Overtime Office Expe,0,7,9,0,8,8,15,30,18,0,1,22
+26,Payroll,6449 Overtime Maintenance,186,288,163,134,148,391,170,36,28,344,86,159
+26,Payroll,6450 Performance Bonuses,1500,0,0,3000,0,0,1600,0,0,3000,0,4000
+26,Payroll,6451 Other Bonus,1200,0,0,0,0,0,1400,0,0,2000,0,2500
+26,Payroll,6455 Commissions - Office,1000,2400,2050,2449,2450,1809,1558,1540,1700,1550,650,1261
+26,Payroll,6456 Commissions - Mainte,0,0,0,0,0,0,0,0,0,0,350,290
+26,Payroll,6465 Payroll Taxes,1030,1790,1987,2184,1456,1424,2243,1384,2207,2470,1596,2518
+26,Payroll,6470 Employee Health Insu,2694,2198,1806,1025,1013,1013,731,1013,1013,1297,1261,1261
+26,Payroll,6475 Workers Compensatio,547,469,266,0,0,660,1039,641,724,870,735,946
+26,Payroll,6495 Other Payroll Burden,400,400,1623,137,446,307,42,97,35,35,35,35
+,,Total Salaries & Payroll Rela,28131,34095,28152,28236,26303,24655,33374,19685,23860,29876,23545,32199
+,,Contract Services,,,,,,,,,,,,
+24,Repairs & Maintenance,6501 911 Pool Phone - King,0,0,422,0,0,422,0,0,450,0,0,450
+24,Repairs & Maintenance,6515 Contract Grounds/Lan,2400,2400,2400,2400,2400,2400,2400,2400,2400,2400,2400,2400
+24,Repairs & Maintenance,6520 Contract Housekeepin,0,0,0,0,0,0,0,0,100,0,0,0
+28,Contracted Services,6545 Fire Inspection,0,0,0,0,0,0,0,0,0,0,0,867
+28,Contracted Services,6560 Pest Control - Contrac,1527,373,292,438,292,292,422,200,292,604,292,444
+28,Contracted Services,6575 Security System,0,97,0,0,97,0,0,97,0,0,97,0
+24,Repairs & Maintenance,6595 Other Contract Servic,0,0,0,0,0,0,0,0,0,0,0,0
+,,Total Contract Services,3927,2870,3114,2838,2789,3114,2822,2697,3242,3004,2789,4161
+,,Maintenance and Repair,,,,,,,,,,,,
+24,Repairs & Maintenance,6605 Garbage Disposal,0,0,0,0,0,0,0,0,0,209,70,0
+24,Repairs & Maintenance,6606 Appliance Parts & Sup,54,246,416,27,323,322,195,315,84,126,25,261
+24,Repairs & Maintenance,6610 Blinds / Drapery Repa,0,0,0,0,127,0,0,78,246,0,0,0
+24,Repairs & Maintenance,6611 Blinds - Replacement,0,49,70,0,0,0,0,0,0,212,0,0
+36,Other Non-Controllable Expenses2,6612 Paint & Sheetrock - In,0,0,0,34,23,0,0,0,0,105,0,0
+24,Repairs & Maintenance,6615 Building Repairs - Min,0,0,225,0,0,597,0,8110,0,0,0,0
+24,Repairs & Maintenance,6618 Cabinets & Counters -,0,0,62,0,0,0,0,0,0,0,0,0
+,,6620 Carpet Water Extracti,81,0,0,0,0,0,0,0,0,0,162,0
+26,Payroll,6621 Carpet Repair & Clean,162,0,0,0,0,0,0,-81,0,0,0,0
+24,Repairs & Maintenance,6626 Subfloor Repairs,0,0,0,0,0,0,0,135,0,0,0,0
+24,Repairs & Maintenance,6627 Electrical Parts & Sup,49,287,61,322,220,65,10,33,0,18,124,72
+24,Repairs & Maintenance,6628 Electrical Fixtures Int,427,0,0,378,33,69,0,0,25,0,189,0
+24,Repairs & Maintenance,6629 Electrical Fixtures Ext,0,27,0,0,0,0,0,0,20,0,0,0
+24,Repairs & Maintenance,6633 Exterior / Entry / Gat,0,0,0,0,0,105,0,0,0,0,0,0
+24,Repairs & Maintenance,6645 Glass - Mirrors - Scree,0,43,0,53,84,0,50,90,0,121,64,0
+24,Repairs & Maintenance,6646 Window & Screen Rep,0,0,0,0,0,0,0,0,0,0,49,0
+28,Contracted Services,6647 Pest Control 3rd Pary,182,0,29,161,0,704,947,238,0,0,0,0
+24,Repairs & Maintenance,6654 HVAC Parts & Supplie,906,1733,1311,573,842,1617,998,213,448,109,657,1851
+24,Repairs & Maintenance,6660 Light Bulbs & Fixture,0,0,0,0,0,0,0,0,0,0,146,34
+24,Repairs & Maintenance,"6663 Locks, Keys & Securit",83,16,206,87,69,0,21,144,0,0,30,172
+24,Repairs & Maintenance,6669 Maint. Tools & Supplie,69,24,258,73,46,117,203,125,269,0,144,9
+24,Repairs & Maintenance,6670 Exercise Equipment R,0,0,0,0,0,0,0,0,0,0,21,0
+24,Repairs & Maintenance,6672 Plumbing Repair,0,0,0,0,0,2760,0,0,0,0,0,0
+24,Repairs & Maintenance,6675 Plumbing Supplies,777,474,639,476,408,439,222,802,700,795,632,236
+24,Repairs & Maintenance,6680 Pool Supplies,16,573,470,504,38,667,0,464,47,0,465,0
+24,Repairs & Maintenance,6681 Pool Repairs,0,50,23,0,300,0,0,-50,0,0,0,0
+24,Repairs & Maintenance,6687 Roof Supplies & Repai,1077,0,0,0,0,31,55,0,0,0,0,0
+24,Repairs & Maintenance,6690 Grounds,0,50,0,96,0,100,0,36,0,255,0,33
+,,Total Maintenance and Repa,3883,3572,3770,2784,2513,7593,2701,10652,1839,1950,2778,2668
+,,Turnover Costs,,,,,,,,,,,,
+,,6701 Appliance Parts - Mak,0,0,0,191,57,188,0,0,0,0,0,0
+36,Other Non-Controllable Expenses2,6702 Door and baseboard R,0,89,110,0,0,259,46,0,0,0,0,46
+24,Repairs & Maintenance,6703 Cabinet and Counter -,0,0,0,77,0,0,0,0,0,0,116,0
+30,Apartment Prep/Turnover,6705 Interior Hardware,226,41,259,353,331,297,215,19,24,29,148,70
+30,Apartment Prep/Turnover,6706 Exterior Hardware,35,19,0,0,0,19,0,0,0,0,0,0
+36,Other Non-Controllable Expenses2,6710 Blinds / Drapery Repl,1014,407,713,135,572,526,270,429,0,0,-56,468
+30,Apartment Prep/Turnover,6715 Plumbing supplies,102,-501,0,87,30,78,59,0,63,22,0,0
+30,Apartment Prep/Turnover,6720 Electrical Fixtures,2,100,189,319,0,94,0,0,66,0,0,181
+30,Apartment Prep/Turnover,6725 HVAC Parts,0,0,194,0,0,0,0,0,0,0,0,0
+,,6730 Cleaning / Janitorial,0,0,0,30,0,0,13,13,0,0,13,15
+,,6740 Contract Carpet Clean,682,580,758,379,861,530,319,512,309,249,520,796
+24,Repairs & Maintenance,6745 Carpet Repairs & Dye,281,260,81,274,152,422,264,76,0,0,287,363
+30,Apartment Prep/Turnover,6750 Contract Cleaning,1395,1120,1885,1180,1750,955,925,315,710,525,940,1155
+30,Apartment Prep/Turnover,6760 Contract Painting,0,42,0,0,550,81,0,0,0,0,0,0
+30,Apartment Prep/Turnover,6765 Resurfacing,299,0,100,160,573,0,0,89,0,0,0,230
+30,Apartment Prep/Turnover,6770 Paint & Supplies,110,321,497,886,186,723,39,812,31,239,30,371
+30,Apartment Prep/Turnover,6780 Sheetrock Repair,0,0,0,0,0,0,2176,0,0,0,0,0
+30,Apartment Prep/Turnover,6790 Other Turnover Costs,0,0,0,0,0,0,0,0,0,0,0,0
+,,Total Turnover Costs,4146,2478,4786,4071,5062,4172,4326,2265,1203,1064,1998,3695
+,,Total Controllable Operating,45736,48088,55045,44054,44033,45507,49748,43902,36756,43981,38211,48540
+,,Non-Controllable Expenses,,,,,,,,,,,,
+,,Utilities,,,,,,,,,,,,
+22,"Utilities (fuel, gas, electric)",6915 Electric - Common Are,984,768,710,884,0,931,1633,0,1026,1132,1196,1179
+22,"Utilities (fuel, gas, electric)",6920 Electric - Vacant,326,421,523,1206,962,984,651,252,270,426,291,213
+22,"Utilities (fuel, gas, electric)",6930 Natural Gas - Common,240,234,214,235,1085,249,263,294,274,284,292,292
+27,Administrative,"6939 Internet, Telephone a",266,265,266,266,266,303,268,286,286,286,286,286
+28,Contracted Services,6940 Trash Collection / Re,1099,1149,1101,1149,1149,1192,1150,1102,1193,1245,1193,1245
+27,Administrative,6950 AMS - Utility Meter Re,1071,2143,1071,1071,1071,1071,1098,2196,0,1098,2196,0
+27,Administrative,6952 City of Abilene Pothol,1600,1600,1600,1600,1600,1600,1600,1600,1600,1600,1600,1600
+23,Water & Sewer,6955 Water & Sewer,5930,5162,5886,5417,6731,4444,5239,5557,5635,6065,5068,4910
+,,Total Utilities,11516,11742,11371,11828,12864,10774,11902,11287,10284,12136,12122,9725
+,,"Interest, Insurance & Taxes",,,,,,,,,,,,
+21,Insurance,7120 Insurance,9576,9576,9576,9576,9576,9576,9576,9576,9576,9576,9316,9316
+20,Real Estate Taxes,7130 Property Taxes,25000,25000,17700,17700,17700,17700,17700,17329,22201,22201,22201,22201
+32,Other Taxes & Assessments,7142 Franchise Tax,0,0,0,0,0,0,0,0,0,0,0,0
+,,"Total Interest, Insurance &",34576,34576,27276,27276,27276,27276,27276,26905,31777,31777,31517,31517
+,,Management Company Char,,,,,,,,,,,,
+25,Management Fee,7220 Management Fees,8909,9220,8927,9160,9080,15280,11420,11794,10801,11780,13927,11929
+,,Total Management Company,8909,9220,8927,9160,9080,15280,11420,11794,10801,11780,13927,11929
+,,Total Non-Controllable Expen,55001,55538,47574,48264,49220,53330,50598,49986,52862,55693,57566,53171
+,,TOTAL EXPENSE,100737,103626,102619,92318,93253,98837,100346,93888,89618,99674,95777,101711
+,,NET OPERATING INCOME,87199,86456,81087,94975,91849,160535,90297,112244,86371,97560,137290,99870
+,,OTHER EXPENSE,,,,,,,,,,,,
+,,Recurring Capital Expenses,,,,,,,,,,,,
+36,Other Non-Controllable Expenses2,7518 Dishwashers,798,390,390,390,390,0,389,0,410,390,335,1198
+24,Repairs & Maintenance,7534 Floor Covering - Carpet,1969,2827,2574,3363,0,2698,410,-21648,329,0,534,1534
+24,Repairs & Maintenance,7536 Floor Covering - Vinyl /,2660,0,0,1228,0,0,0,0,0,0,0,0
+36,Other Non-Controllable Expenses2,7542 Garbage Disposals,0,0,0,0,0,154,0,0,0,0,0,0
+36,Other Non-Controllable Expenses2,7544 HVAC Replacement,113,7827,2633,2703,779,1366,1267,-22785,0,1059,703,3605
+36,Other Non-Controllable Expenses2,7564 Refrigerators,0,716,0,701,701,701,0,2104,0,716,0,716
+24,Repairs & Maintenance,7570 Stove Top / Range / Ov,0,0,0,645,0,0,0,0,0,0,569,645
+36,Other Non-Controllable Expenses2,7576 Water Heaters,877,977,483,460,0,1064,511,1575,1024,519,0,0
+,,Total Recurring Capital Expen,6417,12737,6080,9490,1870,5983,2577,-40754,1763,2684,2141,7698
+,,Special Projects,,,,,,,,,,,,
+,,7604 Asphalt Parking / Pavin,0,0,0,0,4315,0,0,0,0,0,0,0
+24,Repairs & Maintenance,7628 Exterior Repairs - Major,0,0,0,0,0,0,0,-10664,0,0,0,0
+24,Repairs & Maintenance,"7650 Lawn, Trees, Shrubs - M",0,0,0,0,0,0,0,0,0,0,13531,0
+36,Other Non-Controllable Expenses2,"7658 Pool, playground & Rec",0,1015,0,0,0,0,0,0,0,0,1365,0
+36,Other Non-Controllable Expenses2,7680 Other Exterior Replace,12283,10687,0,0,0,0,0,0,0,0,1243,0
+,,Total Special Projects,12283,11702,0,0,4315,0,0,-10664,0,0,16139,0
+24,Repairs & Maintenance,9494 Amortization Expense,0,0,0,0,0,0,0,7318,0,0,0,0
+27,Administrative,9495 Depreciation Expense,0,0,0,0,0,0,0,312573,0,0,0,0
+,,TOTAL OTHER EXPENSE,18700,24439,6080,9490,6185,5983,2577,268473,1763,2684,18280,7698
+,,NON-OPERATING EXPENSE,,,,,,,,,,,,
+,,Debt Service,,,,,,,,,,,,
+36,Other Non-Controllable Expenses2,7325 Principal,9447,8542,9521,8657,9633,9633,8735,8735,8815,8852,8735,8941
+11,Other Income,7330 Interest Payment,28356,29261,28281,29146,28170,28170,29068,29068,28988,28950,29068,28862
+,,Total Debt Service,37803,37803,37802,37803,37803,37803,37803,37803,37803,37802,37803,37803
+,,TOTAL NON-OPERATING EXPEN,37803,37803,37802,37803,37803,37803,37803,37803,37803,37802,37803,37803
+,,NET INCOME,30696,24214,37205,47682,47861,116749,49917,-194032,46805,57074,81207,54369
