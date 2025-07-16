@@ -228,3 +228,8 @@ yarn-error.log*
 # It is recommended to add this line to the global gitignore file
 # to avoid committing it in any repository
 .DS_Store
+
+# Temporary files created by text editors or IDEs
+# These files are usually created to store unsaved changes or backups
+# They are not necessary for the functioning of the project and can be safely ignored
+~$*.xlsx
